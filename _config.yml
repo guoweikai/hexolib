@@ -89,15 +89,15 @@ pagination_dir: page
 include:
 exclude:
 ignore:
-
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-# theme: landscape
-theme: hexo-theme-3-hexo
+  # Extensions
+  ## Plugins: https://hexo.io/plugins/
+  ## Themes: https://hexo.io/themes/
+  # theme: landscape
+  theme: hexo-theme-3-hexo
+  # theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/guoweikai/hexo.git # https://github.com/TJ-XiaJiaHao/TJ-XiaJiaHao.github.io
+  repo: https://github.com/guoweikai/weikaiguo.github.io.git # https://github.com/TJ-XiaJiaHao/TJ-XiaJiaHao.github.io
   branch: master
