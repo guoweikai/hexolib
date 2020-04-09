@@ -3,14 +3,9 @@ title: es6
 date: 2020-03-30 14:37:05
 tags:
 ---
+###  promise
 
-## 项目中应该区分哪些是同步函数哪些是异步函数
-
-# promise
-
-promise 是
-
-
+```js
 var p1 = new Promise(function (resolve) {
   setTimeout(function () {
     resolve(1);
@@ -28,10 +23,11 @@ p1.then(function (val) {
 }).then(function (val) {
   console.log(val);
 });
+```
+### Iterator
 
-# Iterator 的概念
-
-# 区分同步函数和异步函数 
-
-# 功能行函数拆分
-
+###  心得
+* **项目中一定要区分哪些是异步函数哪些是功能函数**
+* **功能函数的划分**
+* **函数的返回值**
+* **类和函数的区别**

@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "dev": "hexo s",
-    "build1": "hexo clean & hexo deploy"
+    "publish": "hexo clean & hexo deploy"
   },
   "hexo": {
     "version": "4.2.0"
